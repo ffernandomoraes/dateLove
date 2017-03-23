@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #eee;
+	font-family: 'Raleway', sans-serif;
+}
+
+.modal{
+	width: 320px;
+	height: 250px;
+	margin: 50px auto;
+	background: #fff;
+	text-align: center;
+	padding: 50px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+	.modalHeader{
+		margin-bottom: 20px;
+		font-size: 19px;
+		font-weight: 600;
+		letter-spacing: -1px;
+	}
+
+	.modal input[type="text"]{
+		width: 100%;
+		height: 20px;
+		padding: 10px 0;
+		text-indent: 10px;
+		font: 500 20px 'Raleway';  
+		border: 1px solid #ccc;
+		margin-bottom: 20px;
+	}
+		.modal input[type="text"]:focus{
+			border-color: #ddd;
+			outline: none;
+		}
+
+	.modal button{
+		padding: 10px 35px;
+		font: 500 20px 'Raleway';
+		border: 0;
+		background: #16a085;
+		color: #FFF;
+		cursor: pointer;
+		box-shadow: 1px 1px 1px #000;
+	}
+		.modal button:hover{
+			transform: scale(1.05);
+		}
+
+	.result{
+		margin-top: 40px;
+		font: 500 18px 'Raleway';
+	}
+		.result span{
+			display: block;
+			margin-top: 5px;
+			font-size: 26px;
+		}
